@@ -14,7 +14,7 @@ func _ready():
 	timer.start()
 	startScreenVisible(false)
 	get_node("PauseMsg").visible = false
-	get_node("PowerUpInd").visible = false
+	#get_node("PowerUpInd").visible = false
 
 func startScreenVisible(value):
 	get_parent().get_parent().get_node("UI/Node2D").visible = value
